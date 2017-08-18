@@ -3,7 +3,7 @@ body{
 	background-color: #ffffff;
 	font-family: 'Rock Salt', cursive, Arial;
 	font-family: 'Amatic SC', cursive;
-	font-family: 'Homemade Apple', cursive;
+	/*font-family: 'Homemade Apple', cursive;
 	font-family: 'Gochi Hand', cursive;
 	font-family: 'Amatic SC', cursive;
 	font-family: 'Mr Bedfort', cursive;
@@ -12,6 +12,7 @@ body{
 	font-family: 'Nothing You Could Do', cursive;
 	font-family: 'Fredericka the Great', cursive;
 	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Dawning of a New Day', cursive;*/
 	 
 	
 	color: #777777;
@@ -21,10 +22,14 @@ body{
 	font-size: 16px;
 	overflow: hidden;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 h1 {
-	font-family: 'Dawning of a New Day', cursive;
+	font-family: 'Cedarville Cursive', cursive;
+	
 	margin-bottom: 20px;
 	font-size: 60px;
 	letter-spacing: 2px;
@@ -32,10 +37,12 @@ h1 {
 
 }
 .container {
-  width: 100%;
+  display: block;
+  width: 80%;
   margin: 0 auto;
   clear: both;
   border-style: 1px, solid;
+  padding-top: 30px;
 }
 h2{
 	font-family: 'Dawning of a New Day', cursive;
@@ -58,14 +65,15 @@ h2{
 }
 
 #page2 {
-	
+	justify-content: space-around;
 }
 
 img {
 	background: no-repeat center center fixed;
-	width:220px;
+	width:200px;
 	height:160px;
 	border:20px;
+	margin:10px;
 }
 
 #page3 {
